@@ -4,12 +4,11 @@ internal class Librarian : Person
 {
     public DateTime HireDate { get; set; }
 
-    public bool IsSoftDelete { get; set; }
     public Librarian(string Name) : base(Name)
     {
     }
 
-    public void DisplayInfo()
+    public override void DisplayInfo()
     {
         Console.WriteLine($"Librarian Id: {Id}");
         Console.WriteLine($"Librarian name: {Name}");

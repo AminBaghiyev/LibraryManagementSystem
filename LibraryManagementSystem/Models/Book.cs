@@ -1,8 +1,10 @@
-﻿namespace LibraryManagementSystem.Models;
+﻿using LibraryManagementSystem.Enums;
+
+namespace LibraryManagementSystem.Models;
 
 internal class Book : LibraryItem
 {
-    public string Genre { get; set; }
+    public BookGenre Genre { get; set; }
 
     public Book(string Title, DateTime? PublicationYear) : base(Title, PublicationYear)
     {
@@ -10,8 +12,9 @@ internal class Book : LibraryItem
 
     public override void DisplayInfo()
     {
-        Console.WriteLine($"Genre: {Genre}");
         Console.WriteLine($"Title: {Title}");
+        Console.WriteLine($"Genre: {Genre}");
         Console.WriteLine($"Publication year: {PublicationYear}");
+        Console.WriteLine($"Removed: {IsSoftDelete}");
     }
 }

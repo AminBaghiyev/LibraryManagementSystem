@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFFFABCF-D2DD-44FB-A757-08E471489BD9}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\desktop\\ab205\\labtask\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFFFABCF-D2DD-44FB-A757-08E471489BD9}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\desktop\\ab205\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFFFABCF-D2DD-44FB-A757-08E471489BD9}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFFABCF-D2DD-44FB-A757-08E471489BD9}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\desktop\\ab205\\librarymanagementsystem\\librarymanagementsystem\\models\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFFABCF-D2DD-44FB-A757-08E471489BD9}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
               "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T20:32:47.573Z",
+              "WhenOpened": "2024-10-30T22:15:18.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\App.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\App.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\App.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\App.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:58:39.183Z",
               "EditorCaption": ""
             }
           ]

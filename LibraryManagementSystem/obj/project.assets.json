@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\LabTask\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\AB205\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

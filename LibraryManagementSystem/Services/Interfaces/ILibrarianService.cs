@@ -1,11 +1,11 @@
 ﻿using LibraryManagementSystem.Models;
 
-namespace LibraryManagementSystem.Interfaces;
+namespace LibraryManagementSystem.Services.Interfaces;
 
 internal interface ILibrarianService
 {
     Librarian? GetLibrarianById(int id);
-    Librarian[] GetAllLibrarians();
+    List<Librarian> GetAllLibrarians();
     void CreateLibrarian(Librarian librarian);
     void DeleteLibrarian(int id, bool isSoftDelete = true);
 }

@@ -34,6 +34,38 @@ internal class Program
                     app.DeleteLibrarianPage();
                     break;
 
+                case "5":
+                    app.GetLibraryMemberByIdPage();
+                    break;
+
+                case "6":
+                    app.GetAllLibraryMembersPage();
+                    break;
+
+                case "7":
+                    app.AddLibraryMemberPage();
+                    break;
+
+                case "8":
+                    app.DeleteLibraryMemberPage();
+                    break;
+
+                case "9":
+                    app.GetBookByIdPage();
+                    break;
+
+                case "10":
+                    app.GetAllBooksPage();
+                    break;
+
+                case "11":
+                    app.AddBookPage();
+                    break;
+
+                case "12":
+                    app.DeleteBookPage();
+                    break;
+
                 case "0":
                     return;
 

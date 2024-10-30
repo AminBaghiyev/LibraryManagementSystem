@@ -1,10 +1,11 @@
-﻿using LibraryManagementSystem.Interfaces;
+﻿using LibraryManagementSystem.Models;
+using LibraryManagementSystem.Services.Interfaces;
 
-namespace LibraryManagementSystem.Models;
+namespace LibraryManagementSystem.Services.Concretes;
 
 internal class LibrarianService : ILibrarianService
 {
-    private Librarian[] _librarians;
+    private List<Librarian> _librarians;
 
     public LibrarianService()
     {
@@ -13,32 +14,30 @@ internal class LibrarianService : ILibrarianService
 
     public void CreateLibrarian(Librarian librarian)
     {
-        Array.Resize(ref _librarians, _librarians.Length + 1);
-        _librarians[^1] = librarian;
+        _librarians.Add(librarian);
     }
 
     public void DeleteLibrarian(int id, bool isSoftDelete = true)
     {
         if (isSoftDelete)
         {
-            for (int i = 0; i < _librarians.Length; i++)
+            for (int i = 0; i < _librarians.Count; i++)
                 if (_librarians[i].Id == id) _librarians[i].IsSoftDelete = true;
 
             return;
         }
-        
-        Librarian[] updatedLibrarians = new Librarian[_librarians.Length - 1];
-        int count = 0;
 
-        for (int i = 0; i < _librarians.Length; i++)
+        List<Librarian> updatedLibrarians = [];
+
+        for (int i = 0; i < _librarians.Count; i++)
         {
-            if (_librarians[i].Id != id) updatedLibrarians[count++] = _librarians[i];
+            if (_librarians[i].Id != id) updatedLibrarians.Add(_librarians[i]);
         }
 
         _librarians = updatedLibrarians;
     }
 
-    public Librarian[] GetAllLibrarians() => _librarians;
+    public List<Librarian> GetAllLibrarians() => _librarians;
 
     public Librarian? GetLibrarianById(int id)
     {
